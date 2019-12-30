@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+#intro {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 750PX;
+    width: 100%;
+    background-color: blue;
+    color: #ffffff;
+    height: 750px;
+    line-height: 1.65px;
+}
+
+#header ul {
+    list-style-type: none;
+}
+
+#header ul li {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    font: 31px sans-serif;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#header ul li a:hover {
+    background-color: #ffffff;
+    color: blue
+}
+
+#intro h1 {
+    text-align: center;
+    font-size: 139px;
+    font-family: sans-serif;
+}
+
+#intro #p1 {
+    padding-top: 193px;
+    text-align: center;
+    font-size: 31px;
+    font-family: sans-serif;
+}
+
+#intro #p2 {
+    width: 550px;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-left: 720px;
+    line-height: 1.65;
+    border: 5px solid #ffffff;
+}
+
+#content {
+    text-align: center;
+    padding-top: 20px;
+    height: 700PX;
+}
+
+#content #p3 {
+    font-family: Arial;
+    font-size: 26px;
+}
+
+#content #p2 {
+    font-family: 'Segoe UI';
+    font-style: oblique;
+    font-size: 27px;
+}
+
+#content h1 {
+    font-family: 'Segoe UI Heavy';
+    font-size: 43px;
+}
+
+#content img {
+    width: 338px;
+    height: 330px;
+    box-shadow: 20px 20px 10px gray;
+    margin: 40px;
+}
+
+#content img:hover {
+    border: 2px solid;
+}
